@@ -1,0 +1,30 @@
+table, th, td
+{
+	border: 1px solid black;
+}
+
+th
+{
+	background-color: darkseagreen;
+}
+
+td
+{
+	background-color: lightskyblue;
+}
+
+
+form
+{
+	padding: 1em;
+	outline: 2px dashed black;
+}
+
+label
+{
+	display: inline-block;
+	float: left;
+	clear: left;
+	width: 10em;
+	text-align: left;
+}

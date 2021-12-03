@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Lab 9 Exercise 3</title>
+		<link rel="stylesheet" href="storestyle.css">
+	</head>
+	<body>
+		<form action="customerBackend.php" method="post">
+			<label for="email">Username/Email</label> <input type="email" name="email" required><br>
+			<label for="password">Password</label> <input type="password" name="password" minlength="1" required><br>
+			<label for="hotdogs">Hotdogs ($10)</label> <input type="number" name="hotdogs" min="0" value="0"><br>
+			<label for="hamburgers">Hamburgers ($15)</label> <input type="number" name="hamburgers" min="0" value="0"><br>
+			<label for="lemonade">Lemonade ($20)</label> <input type="number" name="lemonade" min="0" value="0"><br>
+			Shipping:<br>
+			<input type="radio" name="shipping" value="7 day" required> <label for="7 day">Free 7 day</label><br>
+			<input type="radio" name="shipping" value="Overnight" required> <label for="Overnight">$50.00 over night</label><br>
+			<input type="radio" name="shipping" value="3 day" required> <label for="3 day">$5.00 three day</label><br>
+			<input type="reset">
+			<input type="submit" value="Submit">
+		</form>
+		<a href="index.html">Home</a>
+	</body>
+</html>
